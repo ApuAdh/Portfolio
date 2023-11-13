@@ -27,12 +27,14 @@ a:hover::after {
 }
 .intro{
     background-color:orangered;
+    border-radius: 20px;
     border:solid black;
     color:black;
-    padding: 1%;
+    padding: 2%;
     margin-bottom:0.5%;
 }
 .hsFreshman{
+    border-radius: 20px;
     background-color:purple;
     color:pink;
     border: solid black;
@@ -46,6 +48,7 @@ a:hover::after {
     background-color:pink;
 }
 .hsSophmore{
+    border-radius: 20px;
     background-color: white;
     border: solid black;
     padding: 1%;
