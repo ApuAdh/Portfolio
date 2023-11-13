@@ -41,7 +41,9 @@ a:hover::after {
 }
 .hsFreshman a{
     color:pink;
-    background-origin: pink;
+}
+.hsFreshman a::after{
+    background-color:pink;
 }
 .hsSophmore{
     background-color: white;
@@ -51,4 +53,7 @@ a:hover::after {
 }
 .hsSophmore a{
     color:orangered;
+}
+.hsSophmore a::after{
+    background-color:orangered;
 }
