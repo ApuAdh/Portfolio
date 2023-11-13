@@ -1,0 +1,28 @@
+body{
+    background-color:black;
+    color:white;
+    font-family: 'Inconsolata', monospace;
+}
+.title{
+    text-align:center;
+    font-size:300%;
+}
+a {
+    text-decoration: none; 
+    color: white;
+    position: relative;
+  }
+  a::after {
+    content: ''; 
+    width: 0;
+    height: 15%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease;
+  }
+  a:hover::after {
+    width: 100%;
+  }
+  
