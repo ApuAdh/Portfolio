@@ -1,6 +1,6 @@
 body{
-    background-color:black;
-    color:white;
+    background-color:gold;
+    color:black;
     font-family: 'Inconsolata', monospace;
 }
 .title{
@@ -16,7 +16,7 @@ a::after {
     content: ''; 
     width: 0;
     height: 15%;
-    background-color: white;
+    background-color: black;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -25,6 +25,30 @@ a::after {
 a:hover::after {
     width: 100%;
 }
-.years{
-    background: solid white;
+.intro{
+    background-color:orangered;
+    border:solid black;
+    color:black;
+    padding: 1%;
+    margin-bottom:0.5%;
+}
+.hsFreshman{
+    background-color:purple;
+    color:pink;
+    border: solid black;
+    padding: 1%;
+    margin-bottom:0.5%;
+}
+.hsFreshman a{
+    color:pink;
+    background-origin: pink;
+}
+.hsSophmore{
+    background-color: white;
+    border: solid black;
+    padding: 1%;
+    color:orangered;
+}
+.hsSophmore a{
+    color:orangered;
 }
