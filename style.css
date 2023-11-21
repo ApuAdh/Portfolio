@@ -1,11 +1,11 @@
 body{
-    background-color:gold;
-    color:black;
+    background-color:#02735E;
     font-family: 'Inconsolata', monospace;
 }
 .title{
     text-align:center;
     font-size:300%;
+    color:lightgray;
 }
 a {
     text-decoration: none; 
@@ -26,37 +26,37 @@ a:hover::after {
     width: 100%;
 }
 .intro{
-    background-color:orangered;
+    background-color:#014034;
     border-radius: 20px;
-    border:solid black;
-    color:black;
+    border:solid #014034;
+    color:lightgray;
     padding: 2%;
     margin-bottom:0.5%;
 }
 .hsFreshman{
     border-radius: 20px;
-    background-color:purple;
-    color:pink;
-    border: solid black;
+    background-color:#014034;
+    color:lightgray;
+    border: solid #014034;
     padding: 1%;
     margin-bottom:0.5%;
 }
 .hsFreshman a{
-    color:pink;
+    color:lightgray;
 }
 .hsFreshman a::after{
-    background-color:pink;
+    background-color:lightgray;
 }
 .hsSophmore{
     border-radius: 20px;
-    background-color: white;
-    border: solid black;
+    background-color: #014034;
+    border: solid #014034;
     padding: 1%;
-    color:orangered;
+    color:lightgray;
 }
 .hsSophmore a{
-    color:orangered;
+    color:lightgray;
 }
 .hsSophmore a::after{
-    background-color:orangered;
+    background-color:lightgray;
 }
